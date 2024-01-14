@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: c-node-cicd-deployment
-          image: tadrianonet/k8scifiap
+          image: memarchi/fiap-k8s2-aula7:v1
           ports:
             - containerPort: 3000
